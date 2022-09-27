@@ -78,3 +78,8 @@
   background-color: #808080;
   text-align: center;
 }
+.card-img-top {
+  width: 5rem;
+  height: 15rem;
+  padding: 3px;
+}
