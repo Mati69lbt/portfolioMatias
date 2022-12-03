@@ -1,3 +1,7 @@
+body {
+  margin: 5px;
+}
+
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
   background-color: black;
@@ -41,10 +45,10 @@
 
 /* services section css */
 .servicesText.card {
-  height: 120px;
+  height: 7.5rem;
 }
 .servicesIcon {
-  font-size: 50px;
+  font-size: 3.125rem;
   text-align: center;
   width: 100%;
 }
@@ -60,7 +64,7 @@
 
 /* social media icons styling */
 .social-icons {
-  font-size: 36px;
+  font-size: 2.25rem;
   cursor: pointer;
 }
 .fa-facebook:hover,
@@ -82,4 +86,28 @@
   width: 5rem;
   height: 15rem;
   padding: 3px;
+}
+
+@media (max-width: 576px) {
+  .bgimage {
+    height: 50vh;
+    background: url("images/heroImage.jpg");
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero_title {
+    font-size: 2.5rem;
+  }
+  .hero_desc {
+    font-size: 1rem;
+  }
+
+  #b {
+    width: 30%;
+  }
+  #a {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
