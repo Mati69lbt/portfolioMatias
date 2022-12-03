@@ -110,4 +110,8 @@ body {
     display: flex;
     justify-content: space-evenly;
   }
+
+  #b h4 {
+    font-size: 0.8rem;
+  }
 }
