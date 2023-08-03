@@ -115,3 +115,7 @@ body {
     font-size: 0.8rem;
   }
 }
+
+.card {
+  height: 27rem;
+}
