@@ -1,777 +1,1148 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Portfolio Matias Delgado</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- linking css file -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/jpg" href="images/m.jpg" />
+    <!-- bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/31149d48b0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/b1104715a5.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <title>Portfolio Matias Delgado</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- linking css file -->
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/jpg" href="images/m.jpg" />
-  <!-- bootstrap CDN -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- font awesome -->
-  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/b1104715a5.js" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-</head>
-
-<body>
-
-  <!-- navbar -->
-  <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
-    <div class="container">
-      <a class="navbar-brand" href="#">Matias</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">Sobre Mi</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#services">Tecnologias</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contacto</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="CVMatiasDelgado.pdf" download="CVMatiasDelgado">
-            Curriculum</a>
-          </li>
-        </ul>
-
-      </div>
-    </div>
-  </nav>
-
-  <!-- main banner -->
-  <section class="bgimage" id="home">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-          <h2 class="hero_title">Hola, soy Matias!!!</h2>
-          <p class="hero_desc">...un Programador desde Argentina...</p>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+      <div class="container">
+        <a class="navbar-brand" href="#">Matias</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Sobre Mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Tecnologias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="CVMatiasDelgado.pdf"
+                download="CVMatiasDelgado"
+              >
+                Curriculum</a
+              >
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-  </section>
+    </nav>
 
-  <!-- about section-->
-  <section id="about">
-    <div class="container mt-4 pt-4">
-      <h1 class="text-center">Sobre Mi</h1>
-      <div class="row mt-4">
-        <div class="col-lg-4">
-          <img src="images/aboutme.jpg" class="imageAboutPage" alt="yo">
-        </div>
-
-        <div class="col-lg-8">
-          <p>
-            ¡Hola! Mi nombre es Matías Daniel Delgado, nacido el 5 de septiembre de 1989. Soy un profesional con
-            formación académica
-            en bachillerato y estudios Terciarios en técnico superior en Informática de Gestión. Gracias a esos estudios
-            adquirí
-            habilidades fundamentales y conocimientos generales que sentaron las bases para mi posterior desarrollo en
-            el campo de
-            la informática.
-          </p>
-          <p>
-            Además, he invertido tiempo y esfuerzo en una formación adicional de manera autodidacta. He participado en
-            el Bootcamp
-            de Soy Henry, donde obtuve una capacitación intensiva de más de 700 horas en desarrollo full-stack. Durante
-            este
-            programa, adquirí habilidades sólidas en diferentes tecnologías y herramientas que me permiten abordar
-            proyectos de
-            manera integral.
-          </p>
-          <p>
-            Adicionalmente, realicé el curso "Cero a Experto en React" en Udemy, con el objetivo de profundizar mis
-            conocimientos y
-            dominar una de las tecnologías más populares en el desarrollo web.
-          </p>
-          <p>
-            Estas experiencias formativas han tenido un impacto significativo en mi desarrollo personal y profesional.
-            Me han
-            brindado una base sólida de conocimientos técnicos y habilidades prácticas, permitiéndome abordar proyectos
-            de manera
-            eficiente y con confianza. Además, han estimulado mi capacidad de aprendizaje continuo, ya que el campo de
-            la
-            informática está en constante evolución.
-          </p>
-          <p>
-            A lo largo de los años, he cultivado una pasión profunda por el mundo de la computación y las tecnologías.
-            Me encanta
-            sumergirme en la búsqueda de soluciones creativas para diversos desafíos. Una de mis principales fortalezas
-            es mi
-            dedicación y empeño para agotar todos los recursos disponibles con el fin de alcanzar los objetivos
-            propuestos. Disfruto
-            colaborar con mis compañeros y aprender de su trabajo para optimizar las tareas y lograr resultados de
-            calidad.
-          </p>
-          <p>
-            La motivación constante por seguir aprendiendo y creciendo en mi campo de especialización proviene del hecho
-            de que la
-            programación y la tecnología evolucionan rápidamente. Es un desafío continuo y emocionante mantenerme al día
-            con las
-            últimas tendencias y estar en constante desarrollo profesional.
-          </p>
-          <p>
-            A lo largo de mi carrera, he enfrentado desafíos que me han permitido crecer y superarme. En ocasiones,
-            cuando las
-            tareas se complican, no dudo en buscar la ayuda y el conocimiento de mis compañeros para aprender de ellos y
-            encontrar
-            soluciones efectivas.
-          </p>
-          <p>
-            Mi enfoque y método de trabajo se basan en el estudio constante y la dedicación absoluta a cada proyecto. Me
-            considero
-            único en mi capacidad para abordar problemas desde diferentes perspectivas y agotar todas las opciones
-            posibles hasta
-            encontrar la mejor solución.
-          </p>
-          <p>
-            Mantenerme actualizado en mi campo es fundamental para mí. Utilizo diversas estrategias, como seguir a
-            expertos en redes
-            sociales y leer documentación oficial, para estar al tanto de las últimas tendencias y avances tecnológicos.
-            Además sigo
-            trabajando en proyectos prácticos y tutoriales en línea.
-          </p>
-          <p>
-            En cuanto a mi visión a largo plazo, aspiro a trabajar en una empresa destacada donde pueda ofrecer
-            servicios de calidad
-            y contribuir al crecimiento y éxito de la organización.
-          </p>
-          <p>
-            Equilibrar mi vida personal y profesional es primordial para mantenerme enérgico y motivado. Disfruto de mi
-            tiempo libre
-            escuchando música y practicando ciclismo. Además, encuentro paz y claridad en las caminatas solitarias, un
-            momento en el
-            que puedo reflexionar y centrarme en mis metas.
-          </p>
-          <p>
-            Mi filosofía de trabajo se basa en la satisfacción que experimento al lograr los objetivos propuestos y en
-            el valor
-            agregado que proporciono al cliente al cumplir con sus expectativas. Estoy convencido de que el trabajo duro
-            y el
-            esfuerzo son fundamentales para obtener resultados exitosos.
-          </p>
-          <p>
-            A través de mi portafolio, espero transmitir mi pasión y dedicación por mi campo profesional. Deseo que los
-            demás
-            perciban mi compromiso y capacidad para resolver problemas de manera eficiente, y que esto genere interés en
-            mi perfil
-            como profesional. Siempre estoy abierto a recibir comentarios constructivos para mejorar y seguir creciendo
-            en mi
-            carrera.
-          </p>          
-        </div>
-      </div>
-      </div>
-  </section>
-
-  <!-- services section-->
-  <section id="services">
-    <div class="containertect">
-      <h1 class="text-center">Mis Tecnologias</h1>
-
-      <div class="row  justify-content-md-center" id="a">
-        <div class="col-sm-2 mt-4" >
-          <div class="card servicesText">
-            <div class="card-body">
-              <i class="fas servicesIcon fa-brands fa-react"></i>
-              <h4 class="card-title mt-3">React</h4>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-2 mt-4" >
-          <div class="card servicesText">
-            <div class="card-body">
-              <i class="fas servicesIcon fa-brands fa-html5"></i>
-              <h4 class="card-title mt-3">HTML</h4>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-2 mt-4" >
-          <div class="card servicesText">
-            <div class="card-body">
-              <i class='far servicesIcon fa-brands fa-css3-alt'></i>
-              <h4 class="card-title mt-3">CSS</h4>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-sm-2 mt-4" >
-          <div class="card servicesText">
-            <div class="card-body">
-              <i class="fas servicesIcon fa-brands fa-js"></i>
-              <h4 class="card-title mt-3">Java Script</h4>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-sm-2 mt-4" >
-          <div class="card servicesText">
-            <div class="card-body">
-              <i class='fas servicesIcon fa-brands fa-node'></i>
-              <h4 class="card-title mt-3">Node</h4>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-2 mt-4" >
-          <div class="card servicesText">
-            <div class="card-body">
-              <i class='fas servicesIcon fa-brands fa-bootstrap'></i>
-              <h4 class="card-title mt-3">Bootstrap</h4>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-sm-2 mt-4" >
-          <div class="card servicesText">
-            <div class="card-body" style="text-align: center;">
-              <i class='bx bxl-postgresql bx-lg'></i>
-              <h4 class="card-title mt-3">PostgreSQL</h4>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-2 mt-4" >
-          <div class="card servicesText">
-            <div class="card-body" style="text-align: center;">
-              <i class='bx bxl-mongodb bx-lg'></i>
-              <h4 class="card-title mt-3">Mongo DB</h4>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-2 mt-4" >
-          <div class="card servicesText">
-            <div class="card-body" style="text-align: center;">
-              <i class='bx bxl-heroku bx-lg'></i>
-              <h4 class="card-title mt-3">Heroku</h4>
-            </div>
-          </div>
-        </div>
-
-
-
-        <div class="col-sm-2 mt-4" >
-          <div class="card servicesText">
-            <div class="card-body" style="text-align: center;">
-              <i class='bx bxl-redux bx-lg'></i>
-              <h4 class="card-title mt-3">Redux</h4>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-2 mt-4" >
-          <div class="card servicesText">
-            <div class="card-body" style="text-align: center;">
-              <i class='bx bxl-sass bx-lg'></i>
-              <h4 class="card-title mt-3">Sass</h4>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-2 mt-4" >
-          <div class="card servicesText">
-            <div class="card-body" style="text-align: center;">
-              <i class='bx bxl-firebase bx-lg'></i>
-              <h4 class="card-title mt-3">Firebase</h4>
-            </div>
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+            <h2 class="hero_title">Hola, soy Matias!!!</h2>
+            <p class="hero_desc">...un Programador desde Argentina...</p>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- portfolio section-->
+    <!-- about section-->
+    <section id="about">
+      <div class="container mt-4 pt-4">
+        <h1 class="text-center">Sobre Mi</h1>
+        <div class="row mt-4">
+          <div class="col-lg-4">
+            <img src="images/aboutme.jpg" class="imageAboutPage" alt="yo" />
+          </div>
 
-  <section id="portfolio">
-
-    <div class="container mt-3">
-      <h1 class="text-center">Portfolio</h1>
-      <div class="row">
-
-        <!-- Blog -->
-        <div class="col-lg-4 mt-4">
-          <div class="card">
-            <img class="card-img-top" src="images/blog.jpg" alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">MERN Blog</h4>
-              <p class="card-text">En este mern se hizo un blog con un crud, ademas estan las explicaciones de todo lo que se hizo </p>
-              <div class="text-center">
-                <a href="https://blogconreact.vercel.app/" target="_blank" class="btn btn-success">Link</a>
-                <a href="https://github.com/Mati69lbt/Blog_frontend" target=" _blank"
-                  class="btn btn-success">GitHub</a>
-              </div>
-            </div>
+          <div class="col-lg-8">
+            <p>
+              ¡Hola! Mi nombre es Matías Daniel Delgado, nacido el 5 de
+              septiembre de 1989. Soy un profesional con formación académica en
+              bachillerato y estudios Terciarios en técnico superior en
+              Informática de Gestión. Gracias a esos estudios adquirí
+              habilidades fundamentales y conocimientos generales que sentaron
+              las bases para mi posterior desarrollo en el campo de la
+              informática.
+            </p>
+            <p>
+              Además, he invertido tiempo y esfuerzo en una formación adicional
+              de manera autodidacta. He participado en el Bootcamp de Soy Henry,
+              donde obtuve una capacitación intensiva de más de 700 horas en
+              desarrollo full-stack. Durante este programa, adquirí habilidades
+              sólidas en diferentes tecnologías y herramientas que me permiten
+              abordar proyectos de manera integral.
+            </p>
+            <p>
+              Adicionalmente, realicé el curso "Cero a Experto en React" en
+              Udemy, con el objetivo de profundizar mis conocimientos y dominar
+              una de las tecnologías más populares en el desarrollo web.
+            </p>
+            <p>
+              Estas experiencias formativas han tenido un impacto significativo
+              en mi desarrollo personal y profesional. Me han brindado una base
+              sólida de conocimientos técnicos y habilidades prácticas,
+              permitiéndome abordar proyectos de manera eficiente y con
+              confianza. Además, han estimulado mi capacidad de aprendizaje
+              continuo, ya que el campo de la informática está en constante
+              evolución.
+            </p>
+            <p>
+              A lo largo de los años, he cultivado una pasión profunda por el
+              mundo de la computación y las tecnologías. Me encanta sumergirme
+              en la búsqueda de soluciones creativas para diversos desafíos. Una
+              de mis principales fortalezas es mi dedicación y empeño para
+              agotar todos los recursos disponibles con el fin de alcanzar los
+              objetivos propuestos. Disfruto colaborar con mis compañeros y
+              aprender de su trabajo para optimizar las tareas y lograr
+              resultados de calidad.
+            </p>
+            <p>
+              La motivación constante por seguir aprendiendo y creciendo en mi
+              campo de especialización proviene del hecho de que la programación
+              y la tecnología evolucionan rápidamente. Es un desafío continuo y
+              emocionante mantenerme al día con las últimas tendencias y estar
+              en constante desarrollo profesional.
+            </p>
+            <p>
+              A lo largo de mi carrera, he enfrentado desafíos que me han
+              permitido crecer y superarme. En ocasiones, cuando las tareas se
+              complican, no dudo en buscar la ayuda y el conocimiento de mis
+              compañeros para aprender de ellos y encontrar soluciones
+              efectivas.
+            </p>
+            <p>
+              Mi enfoque y método de trabajo se basan en el estudio constante y
+              la dedicación absoluta a cada proyecto. Me considero único en mi
+              capacidad para abordar problemas desde diferentes perspectivas y
+              agotar todas las opciones posibles hasta encontrar la mejor
+              solución.
+            </p>
+            <p>
+              Mantenerme actualizado en mi campo es fundamental para mí. Utilizo
+              diversas estrategias, como seguir a expertos en redes sociales y
+              leer documentación oficial, para estar al tanto de las últimas
+              tendencias y avances tecnológicos. Además sigo trabajando en
+              proyectos prácticos y tutoriales en línea.
+            </p>
+            <p>
+              En cuanto a mi visión a largo plazo, aspiro a trabajar en una
+              empresa destacada donde pueda ofrecer servicios de calidad y
+              contribuir al crecimiento y éxito de la organización.
+            </p>
+            <p>
+              Equilibrar mi vida personal y profesional es primordial para
+              mantenerme enérgico y motivado. Disfruto de mi tiempo libre
+              escuchando música y practicando ciclismo. Además, encuentro paz y
+              claridad en las caminatas solitarias, un momento en el que puedo
+              reflexionar y centrarme en mis metas.
+            </p>
+            <p>
+              Mi filosofía de trabajo se basa en la satisfacción que experimento
+              al lograr los objetivos propuestos y en el valor agregado que
+              proporciono al cliente al cumplir con sus expectativas. Estoy
+              convencido de que el trabajo duro y el esfuerzo son fundamentales
+              para obtener resultados exitosos.
+            </p>
+            <p>
+              A través de mi portafolio, espero transmitir mi pasión y
+              dedicación por mi campo profesional. Deseo que los demás perciban
+              mi compromiso y capacidad para resolver problemas de manera
+              eficiente, y que esto genere interés en mi perfil como
+              profesional. Siempre estoy abierto a recibir comentarios
+              constructivos para mejorar y seguir creciendo en mi carrera.
+            </p>
           </div>
         </div>
-
-        <!-- Guarderia de peliculas -->
-        <div class="col-lg-4 mt-4">
-          <div class="card">
-            <img class="card-img-top" src="images/guarderiapelis.jpg" alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">Guarderia de Peliculas/h4>
-              <p class="card-text">Pequeño proyecto para guardar peliculas y no perderlas </p>
-              <div class="text-center">
-                <a href="https://guarderiadepelis.vercel.app/" target="_blank" class="btn btn-success">Link</a>
-                <a href="https://github.com/Mati69lbt/Crud_de_Peliculas_REACT" target=" _blank"
-                  class="btn btn-success">GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Hooks de react -->
-        <div class="col-lg-4 mt-4">
-          <div class="card">
-            <img class="card-img-top" src="images/hooks.jpg" alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">Hooks</h4>
-              <p class="card-text">Esta pagina la utilice para analizar bien a los hooks con practicas. </p>
-              <div class="text-center">
-                <a href="https://hooks-de-react.vercel.app/personalizados" target="_blank" class="btn btn-success">Link</a>
-                <a href="https://github.com/Mati69lbt/Hooks-de-React" target=" _blank"
-                  class="btn btn-success">GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Portfolio Carolina -->
-        <div class="col-lg-4 mt-4">
-          <div class="card">
-            <img class="card-img-top" src="images/cl.jpg" alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">Portfolio Carolina Langhi</h4>
-              <p class="card-text">Portfolio exclusivo para Carolina Langhi,  Destaca sus logros y pasiones, proporcionando una experiencia visual atractiva y personalizada. </p>
-              <div class="text-center">
-                <a href="https://carolinalanghi.vercel.app/inicio" target="_blank" class="btn btn-success">Link</a>
-                <a href="https://github.com/Mati69lbt/CaroLanghi_portfolio" target=" _blank"
-                  class="btn btn-success">GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- GUitarLA -->
-        <div class="col-lg-4 mt-4">
-          <div class="card">
-            <img class="card-img-top" src="images/guitarla.png" alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">GuitarLA</h4>
-              <p class="card-text">Compra tu guitarra, lee los mejores blogs de música y sumérgete en un mundo lleno de
-                acordes y conocimiento melódico.</p>
-              <div class="text-center">
-                <a href="https://guitarla-remix-mati69lbt.vercel.app/" target="_blank" class="btn btn-success">Link</a>
-                <a href="https://github.com/Mati69lbt/guitarla-remix" target=" _blank"
-                  class="btn btn-success">GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- CALENDAR app -->
-        <div class="col-lg-4 mt-4">
-          <div class="card portfolioContent">
-            <img class="card-img-top" src="images/calendar.png" alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">Calendar App</h4>
-              <p class="card-text">Organizá y recordá eventos importantes en tu vida, con
-                una interfaz intuitiva y funciones
-                personalizables..</p>
-              <div class="text-center">
-                <a href="https://calendarapp-mati69lbt.vercel.app/login" target="_blank"
-                  class="btn btn-success">Link</a>
-                <a href="https://github.com/Mati69lbt/CalendarApp" target=" _blank" class="btn btn-success">GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- HolidaySwApp -->
-        <div class="col-lg-4 mt-4">
-          <div class="card portfolioContent">
-            <img class="card-img-top" src="images/holiday.jpg" alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">HolidaySwApp</h4>
-              <p class="card-text">El proyecto grupal permitió a personas de todo el mundo intercambiar sus casas para
-                disfrutar de unas vacaciones
-                maravillosas...</p>
-              <div class="text-center">
-                <a href="https://holidayswapp.vercel.app/" target="_blank" class="btn btn-success">Link</a>
-                <a href="https://github.com/Eliza-code/holidayswapp" target=" _blank" class="btn btn-success">GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <br>
-
-        <!-- JournalApp -->
-        <div class="col-lg-4 mt-4">
-          <div class="card portfolioContent">
-            <img class="card-img-top" src="images/jA.png" alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">Journal App</h4>
-              <p class="card-text">En esta aplicación puedes tener un recordatorio de todo lo que hiciste en este día..
-              </p>
-              <div class="text-center">
-                <a href="https://mati69lbt.github.io/JournalApp/" target="_blank" class="btn btn-success">Link</a>
-                <a href="https://github.com/Mati69lbt/JournalApp" target=" _blank" class="btn btn-success">GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Clima App -->
-        <div class="col-lg-4 mt-4">
-          <div class="card portfolioContent">
-            <img class="card-img-top" src="images/climaApp.jpg" alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">Clima App - useContext()</h4>
-              <p class="card-text">Un buscador de clima por ciudad y país construido con React y UseContext para brindarte información meteorológica.</p>
-              <div class="text-center">
-                <a href="https://clima-app-mati69lbt.vercel.app/" target="_blank" class="btn btn-success">Link</a>
-                <a href="https://github.com/Mati69lbt/ClimaApp-Context" target=" _blank" class="btn btn-success">GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Search Movies -->
-        <div class="col-lg-4 mt-4">
-          <div class="card portfolioContent">
-            <img class="card-img-top" src="images/ibmd.png" alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">Search Movies</h4>
-              <p class="card-text">Se utilizó una API externa para obtener información de la película a través de un
-                buscador.</p>
-              <div class="text-center">
-                <a href="https://buscapelis.vercel.app/" target="_blank" class="btn btn-success">Link</a>
-                <a href="https://github.com/Mati69lbt/BuscaPelis" target=" _blank" class="btn btn-success">GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- HEROES APP -->
-        <div class="col-lg-4 mt-4">
-          <div class="card">
-            <img class="card-img-top" src="images/mvd.jpg" alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">Heroes App</h4>
-              <p class="card-text">Página de héroes de los mejores cómics y descubre un universo de valentía, poderes
-                extraordinarios
-                y emocionantes aventuras..</p>
-              <div class="text-center">
-                <a href="https://mati69lbt.github.io/HeroesApp/" target="_blank" class="btn btn-success">Link</a>
-                <a href="https://github.com/Mati69lbt/HeroesApp" target=" _blank" class="btn btn-success">GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Cotizador de Criptomonedas -->
-        <div class="col-lg-4 mt-4">
-          <div class="card portfolioContent">
-            <img class="card-img-top" src="images/cripto.jpg" alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">Cotizador de Criptomonedas</h4>
-              <p class="card-text">Cotizaciones en tiempo real de criptomonedas, mantente
-                al tanto de los últimos precios y
-                tendencias del mercado..</p>
-              <div class="text-center">
-                <a href="https://cotizatucriptomd.netlify.app/" target="_blank" class="btn btn-success">Link</a>
-                <a href="https://github.com/Mati69lbt/Cotizador-CriptoMonedas" target=" _blank"
-                  class="btn btn-success">GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Cotizador de Seguro para Autos -->
-        <div class="col-lg-4 mt-4">
-          <div class="card portfolioContent">
-            <img class="card-img-top" src="images/seguroautos.jpeg" alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">Cotizador de Seguro p/Autos</h4>
-              <p class="card-text">¡Cotización de seguro de auto por modelo al instante! Conduce protegido y sin preocupaciones.</p>
-              <div class="text-center">
-                <a href="https://cotizaseguroauto.vercel.app/" target="_blank" class="btn btn-success">Link</a>
-                <a href="https://github.com/Mati69lbt/cotizaseguroauto" target=" _blank"
-                  class="btn btn-success">GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- GIF EXPERT -->
-        <div class="col-lg-4 mt-4">
-          <div class="card portfolioContent">
-            <img class="card-img-top" src="images/gif.png" alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">Gif Expert App</h4>
-              <p class="card-text">Encuentra todos los gifs que necesitas para expresar tus emociones y añadir diversión
-                a tus conversaciones.</p>
-              <div class="text-center">
-                <a href="https://mati69lbt.github.io/react-gifExpertApp/" target="_blank"
-                  class="btn btn-success">Link</a>
-                <a href="https://github.com/Mati69lbt/react-gifExpertApp" target=" _blank"
-                  class="btn btn-success">GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Control de Presupuestos -->
-        <div class="col-lg-4 mt-4">
-          <div class="card portfolioContent">
-            <img class="card-img-top" src="images/cp.jpg" alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">Control de Presupuestos</h4>
-              <p class="card-text">Toma el control de tu presupuesto con nuestra página web, donde podrás realizar un
-                seguimiento detallado de tus gastos</p>
-              <div class="text-center">
-                <a href="https://mati69lbt.github.io/Control-Presupuesto/" target="_blank"
-                  class="btn btn-success">Link</a>
-                <a href="https://github.com/Mati69lbt/Control-Presupuesto" target=" _blank"
-                  class="btn btn-success">GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- News Api -->
-        <div class="col-lg-4 mt-4">
-          <div class="card portfolioContent">
-            <img class="card-img-top" src="images/news.jpeg" alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">News Semi Statics</h4>
-              <p class="card-text">News SemiStatics: Noticias internacionales de último momento con apariencia dinámica mediante JSON estático."</p>
-              <div class="text-center">
-                <a href="https://newssemistatics.vercel.app/" target="_blank" class="btn btn-success">Link</a>
-                <a href="https://github.com/Mati69lbt/news-static-dym" target=" _blank" class="btn btn-success">GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- ta -te -ti -->
-        <div class="col-lg-4 mt-4">
-          <div class="card portfolioContent">
-            <img class="card-img-top" src="images/tateti.jpg" alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">TA TE TI</h4>
-              <p class="card-text">Sumérgete en la diversión clásica del juego del Tateti o 3 en raya en nuestra página
-                web. Desafía a tus amigos!!!</p>
-              <div class="text-center">
-                <a href="https://tatetilbt.netlify.app/" target="_blank" class="btn btn-success">Link</a>
-                <a href="https://github.com/Mati69lbt/tateti" target=" _blank" class="btn btn-success">GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- CLima -->
-        <div class="col-lg-4 mt-4">
-          <div class="card portfolioContent">
-            <img class="card-img-top" src="images/clima.jpg" alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">Clima</h4>
-              <p class="card-text">Aquí encontrarás informacion sobre el clima,
-                pronósticos precisos y actualizados para tu ubicación y lugares de interés.
-              </p>
-              <div class="text-center">
-                <a href="https://clima-mati69lbt.vercel.app/" target="_blank" class="btn btn-success">Link</a>
-                <a href="https://github.com/Mati69lbt/clima" target=" _blank" class="btn btn-success">GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- CRM -->
-        <div class="col-lg-4 mt-4">
-          <div class="card portfolioContent">
-            <img class="card-img-top" src="images/crm.jpg" alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">CRM - CLIENTES</h4>
-              <p class="card-text">Simplifica tu enfoque y alcanza el máximo potencial de tus clientes con esta solución de relaciones centrada en la eficiencia
-              </p>
-              <div class="text-center">
-                <a href="https://admin-clientes-two.vercel.app/" target="_blank"
-                  class="btn btn-success">Link</a>
-                <a href="https://github.com/Mati69lbt/AdminClientes" target=" _blank"
-                  class="btn btn-success">GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Challenger -->
-        <div class="col-lg-4 mt-4">
-          <div class="card portfolioContent">
-            <img class="card-img-top" src="images/simularc.jpeg" alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">Challenger</h4>
-              <p class="card-text"> ¡Enfréntate a los desafíos, resuelve los problemas y alcanza nuevas metas en tu camino hacia el éxito! 
-              </p>
-              <div class="text-center">
-                <a href="https://mati69lbt.github.io/challengeGreydive/" target="_blank"
-                  class="btn btn-success">Link</a>
-                <a href="https://github.com/Mati69lbt/challengeGreydive" target=" _blank"
-                  class="btn btn-success">GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- OTRO BUSCADOR DE PELIS -->
-        <div class="col-lg-4 mt-4">
-          <div class="card portfolioContent">
-            <img class="card-img-top" src="images/pelis1.jpg" alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">Buscador de Peliculas</h4>
-              <p class="card-text">Proyecto de búsqueda de películas a través de la API de IMDb! Aquí podrás descubrir y
-                explorar un vasto catálogo de
-                películas,</p>
-              <div class="text-center">
-                <a href="https://searchmoviesmati69lbt.netlify.app/" target="_blank" class="btn btn-success">Link</a>
-                <a href="https://github.com/Mati69lbt/IbdbApi-con-React-Redux" target="_blank"
-                  class="btn btn-success">GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Breaking -->
-        <div class="col-lg-4 mt-4">
-          <div class="card portfolioContent">
-            <img class="card-img-top" src="images/b.jpg" alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">Breaking Bad</h4>
-              <p class="card-text">Proyecto sobre la exitosa serie de television, lamentablemente la API externa dejo de
-                funcionar.</p>
-              <div class="text-center">
-                <a href="https://breakingbad2022.onrender.com/" target="_blank" class="btn btn-success">Link</a>
-                <a href="https://github.com/Mati69lbt/BB2022" target="_blank" class="btn btn-success">GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-
-
-
-
-
-
       </div>
-  </section>
+    </section>
 
-  <!-- contact section-->
-  <section id="contact">
-    <div class="container mt-3 contactContent">
-      <h1 class="text-center">Contacto</h1>
+    <!-- services section-->
+    <section id="services">
+      <div class="containertect">
+        <h1 class="text-center">Mis Tecnologias</h1>
 
-      <div class="row mt-4">
-        <div class="col-lg-6">
-          <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
-          <div style="text-decoration:none; overflow:hidden;max-width:100%;width:500px;height:500px;">
-            <div id="google-maps-display" style="height:100%; width:100%;max-width:100%;"><iframe
-                style="height:100%;width:100%;border:0;" frameborder="0"
-                src="https://www.google.com/maps/embed/v1/place?q=Paraná,+Entre+Ríos,+Argentina&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
-            </div><a class="googlemaps-made" href="https://www.embed-map.com"
-              id="enable-map-data">https://www.embed-map.com</a>
-            <style>
-              #google-maps-display img {
-                max-height: none;
-                max-width: none !important;
-                background: none !important;
-              }
-            </style>
+        <div class="row justify-content-md-center" id="a">
+          <div class="col-sm-2 mt-4">
+            <div class="card servicesText">
+              <div class="card-body">
+                <i class="fas servicesIcon fa-brands fa-react"></i>
+                <h4 class="card-title mt-3">React</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-2 mt-4">
+            <div class="card servicesText">
+              <div class="card-body">
+                <i class="fas servicesIcon fa-brands fa-html5"></i>
+                <h4 class="card-title mt-3">HTML</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-2 mt-4">
+            <div class="card servicesText">
+              <div class="card-body">
+                <i class="far servicesIcon fa-brands fa-css3-alt"></i>
+                <h4 class="card-title mt-3">CSS</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-2 mt-4">
+            <div class="card servicesText">
+              <div class="card-body">
+                <i class="fas servicesIcon fa-brands fa-js"></i>
+                <h4 class="card-title mt-3">Java Script</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-2 mt-4">
+            <div class="card servicesText">
+              <div class="card-body">
+                <i class="fas servicesIcon fa-brands fa-node"></i>
+                <h4 class="card-title mt-3">Node</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-2 mt-4">
+            <div class="card servicesText">
+              <div class="card-body">
+                <i class="fas servicesIcon fa-brands fa-bootstrap"></i>
+                <h4 class="card-title mt-3">Bootstrap</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-2 mt-4">
+            <div class="card servicesText">
+              <div class="card-body" style="text-align: center">
+                <i class="bx bxl-postgresql bx-lg"></i>
+                <h4 class="card-title mt-3">PostgreSQL</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-2 mt-4">
+            <div class="card servicesText">
+              <div class="card-body" style="text-align: center">
+                <i class="bx bxl-mongodb bx-lg"></i>
+                <h4 class="card-title mt-3">Mongo DB</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-2 mt-4">
+            <div class="card servicesText">
+              <div class="card-body" style="text-align: center">
+                <i class="bx bxl-heroku bx-lg"></i>
+                <h4 class="card-title mt-3">Heroku</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-2 mt-4">
+            <div class="card servicesText">
+              <div class="card-body" style="text-align: center">
+                <i class="bx bxl-redux bx-lg"></i>
+                <h4 class="card-title mt-3">Redux</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-2 mt-4">
+            <div class="card servicesText">
+              <div class="card-body" style="text-align: center">
+                <i class="bx bxl-sass bx-lg"></i>
+                <h4 class="card-title mt-3">Sass</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-2 mt-4">
+            <div class="card servicesText">
+              <div class="card-body" style="text-align: center">
+                <i class="bx bxl-firebase bx-lg"></i>
+                <h4 class="card-title mt-3">Firebase</h4>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
+    </section>
 
-        <div class="col-lg-6">
-          <!-- form fields -->
-          <form action="https://formspree.io/f/mrgdqpvd" method="POST">
-            <input type="text" class="form-control form-control-lg" placeholder="Nombre o Empresa" name="Name"
-              autocomplete="off">
+    <!-- portfolio section-->
 
-            <input type="email" class="form-control mt-3" placeholder="Email" name="email" autocomplete="off">
-
-            <input type="text" class="form-control mt-3" placeholder="Asunto" name="subject" autocomplete="off">
-            <div class="mb-3 mt-3">
-              <textarea class="form-control" rows="5" id="comment"
-                placeholder="Deje su mensaje aquí, le responderé lo antes posible, muchas gracias." name="message"
-                autocomplete="off"></textarea>
+    <section id="portfolio">
+      <div class="container mt-3">
+        <h1 class="text-center">Portfolio</h1>
+        <div class="row">
+          
+          <!-- Blog -->
+          <div class="col-lg-4 mt-4">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/blog.jpg"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h4 class="card-title">MERN Blog</h4>
+                <p class="card-text">
+                  En este mern se hizo un blog con un crud, ademas estan las
+                  explicaciones de todo lo que se hizo
+                </p>
+                <div class="text-center">
+                  <a
+                    href="https://blogconreact.vercel.app/"
+                    target="_blank"
+                    class="btn btn-success"
+                    >Link</a
+                  >
+                  <a
+                    href="https://github.com/Mati69lbt/Blog_frontend"
+                    target=" _blank"
+                    class="btn btn-success"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
             </div>
-            <button type="submit" class="btn btn-success mt-3">Enviar</button>
-          </form>
+          </div>
 
+          <!-- Guarderia de peliculas -->
+          <div class="col-lg-4 mt-4">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/guarderiapelis.jpg"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Guarderia de Peliculas</h4>
+                <p class="card-text">
+                  Pequeño proyecto para guardar peliculas y no perderlas
+                </p>
+                <div class="text-center">
+                  <a
+                    href="https://guarderiadepelis.vercel.app/"
+                    target="_blank"
+                    class="btn btn-success"
+                    >Link</a
+                  >
+                  <a
+                    href="https://github.com/Mati69lbt/Crud_de_Peliculas_REACT"
+                    target=" _blank"
+                    class="btn btn-success"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CALENDAR app -->
+          <div class="col-lg-4 mt-4">
+            <div class="card portfolioContent">
+              <img
+                class="card-img-top"
+                src="images/calendar.png"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Calendar App</h4>
+                <p class="card-text">
+                  Organizá y recordá eventos importantes en tu vida, con una
+                  interfaz intuitiva y funciones personalizables..
+                </p>
+                <div class="text-center">
+                  <a
+                    href="https://calendarapp-mati69lbt.vercel.app/login"
+                    target="_blank"
+                    class="btn btn-success"
+                    >Link</a
+                  >
+                  <a
+                    href="https://github.com/Mati69lbt/CalendarApp"
+                    target=" _blank"
+                    class="btn btn-success"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hooks de react -->
+          <div class="col-lg-4 mt-4">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/hooks.jpg"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Hooks</h4>
+                <p class="card-text">
+                  Esta pagina la utilice para analizar bien a los hooks con
+                  practicas.
+                </p>
+                <div class="text-center">
+                  <a
+                    href="https://hooks-de-react.vercel.app/personalizados"
+                    target="_blank"
+                    class="btn btn-success"
+                    >Link</a
+                  >
+                  <a
+                    href="https://github.com/Mati69lbt/Hooks-de-React"
+                    target=" _blank"
+                    class="btn btn-success"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Portfolio Carolina -->
+          <div class="col-lg-4 mt-4">
+            <div class="card">
+              <img class="card-img-top" src="images/cl.jpg" alt="Card image" />
+              <div class="card-body">
+                <h4 class="card-title">Portfolio Carolina Langhi</h4>
+                <p class="card-text">
+                  Portfolio exclusivo para Carolina Langhi, Destaca sus logros y
+                  pasiones, proporcionando una experiencia visual atractiva y
+                  personalizada.
+                </p>
+                <div class="text-center">
+                  <a
+                    href="https://carolinalanghi.vercel.app/inicio"
+                    target="_blank"
+                    class="btn btn-success"
+                    >Link</a
+                  >
+                  <a
+                    href="https://github.com/Mati69lbt/CaroLanghi_portfolio"
+                    target=" _blank"
+                    class="btn btn-success"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- JournalApp -->
+          <div class="col-lg-4 mt-4">
+            <div class="card portfolioContent">
+              <img class="card-img-top" src="images/jA.png" alt="Card image" />
+              <div class="card-body">
+                <h4 class="card-title">Journal App</h4>
+                <p class="card-text">
+                  En esta aplicación puedes tener un recordatorio de todo lo que
+                  hiciste en este día..
+                </p>
+                <div class="text-center">
+                  <a
+                    href="https://mati69lbt.github.io/JournalApp/"
+                    target="_blank"
+                    class="btn btn-success"
+                    >Link</a
+                  >
+                  <a
+                    href="https://github.com/Mati69lbt/JournalApp"
+                    target=" _blank"
+                    class="btn btn-success"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Clima App -->
+          <div class="col-lg-4 mt-4">
+            <div class="card portfolioContent">
+              <img
+                class="card-img-top"
+                src="images/climaApp.jpg"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Clima App - useContext()</h4>
+                <p class="card-text">
+                  Un buscador de clima por ciudad y país construido con React y
+                  UseContext para brindarte información meteorológica.
+                </p>
+                <div class="text-center">
+                  <a
+                    href="https://clima-app-mati69lbt.vercel.app/"
+                    target="_blank"
+                    class="btn btn-success"
+                    >Link</a
+                  >
+                  <a
+                    href="https://github.com/Mati69lbt/ClimaApp-Context"
+                    target=" _blank"
+                    class="btn btn-success"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- GUitarLA -->
+          <div class="col-lg-4 mt-4">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/guitarla.png"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h4 class="card-title">GuitarLA</h4>
+                <p class="card-text">
+                  Compra tu guitarra, lee los mejores blogs de música y
+                  sumérgete en un mundo lleno de acordes y conocimiento
+                  melódico.
+                </p>
+                <div class="text-center">
+                  <a
+                    href="https://guitarla-remix-mati69lbt.vercel.app/"
+                    target="_blank"
+                    class="btn btn-success"
+                    >Link</a
+                  >
+                  <a
+                    href="https://github.com/Mati69lbt/guitarla-remix"
+                    target=" _blank"
+                    class="btn btn-success"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- HolidaySwApp -->
+          <div class="col-lg-4 mt-4">
+            <div class="card portfolioContent">
+              <img
+                class="card-img-top"
+                src="images/holiday.jpg"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h4 class="card-title">HolidaySwApp</h4>
+                <p class="card-text">
+                  El proyecto grupal permitió a personas de todo el mundo
+                  intercambiar sus casas para disfrutar de unas vacaciones
+                  maravillosas...
+                </p>
+                <div class="text-center">
+                  <a
+                    href="https://holidayswapp.vercel.app/"
+                    target="_blank"
+                    class="btn btn-success"
+                    >Link</a
+                  >
+                  <a
+                    href="https://github.com/Eliza-code/holidayswapp"
+                    target=" _blank"
+                    class="btn btn-success"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <br />
+
+          <!-- Search Movies -->
+          <div class="col-lg-4 mt-4">
+            <div class="card portfolioContent">
+              <img
+                class="card-img-top"
+                src="images/ibmd.png"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Search Movies</h4>
+                <p class="card-text">
+                  Se utilizó una API externa para obtener información de la
+                  película a través de un buscador.
+                </p>
+                <div class="text-center">
+                  <a
+                    href="https://buscapelis.vercel.app/"
+                    target="_blank"
+                    class="btn btn-success"
+                    >Link</a
+                  >
+                  <a
+                    href="https://github.com/Mati69lbt/BuscaPelis"
+                    target=" _blank"
+                    class="btn btn-success"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- HEROES APP -->
+          <div class="col-lg-4 mt-4">
+            <div class="card">
+              <img class="card-img-top" src="images/mvd.jpg" alt="Card image" />
+              <div class="card-body">
+                <h4 class="card-title">Heroes App</h4>
+                <p class="card-text">
+                  Página de héroes de los mejores cómics y descubre un universo
+                  de valentía, poderes extraordinarios y emocionantes
+                  aventuras..
+                </p>
+                <div class="text-center">
+                  <a
+                    href="https://mati69lbt.github.io/HeroesApp/"
+                    target="_blank"
+                    class="btn btn-success"
+                    >Link</a
+                  >
+                  <a
+                    href="https://github.com/Mati69lbt/HeroesApp"
+                    target=" _blank"
+                    class="btn btn-success"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cotizador de Criptomonedas -->
+          <div class="col-lg-4 mt-4">
+            <div class="card portfolioContent">
+              <img
+                class="card-img-top"
+                src="images/cripto.jpg"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Cotizador de Criptomonedas</h4>
+                <p class="card-text">
+                  Cotizaciones en tiempo real de criptomonedas, mantente al
+                  tanto de los últimos precios y tendencias del mercado..
+                </p>
+                <div class="text-center">
+                  <a
+                    href="https://cotizatucriptomd.netlify.app/"
+                    target="_blank"
+                    class="btn btn-success"
+                    >Link</a
+                  >
+                  <a
+                    href="https://github.com/Mati69lbt/Cotizador-CriptoMonedas"
+                    target=" _blank"
+                    class="btn btn-success"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cotizador de Seguro para Autos -->
+          <div class="col-lg-4 mt-4">
+            <div class="card portfolioContent">
+              <img
+                class="card-img-top"
+                src="images/seguroautos.jpeg"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Cotizador de Seguro p/Autos</h4>
+                <p class="card-text">
+                  ¡Cotización de seguro de auto por modelo al instante! Conduce
+                  protegido y sin preocupaciones.
+                </p>
+                <div class="text-center">
+                  <a
+                    href="https://cotizaseguroauto.vercel.app/"
+                    target="_blank"
+                    class="btn btn-success"
+                    >Link</a
+                  >
+                  <a
+                    href="https://github.com/Mati69lbt/cotizaseguroauto"
+                    target=" _blank"
+                    class="btn btn-success"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- GIF EXPERT -->
+          <div class="col-lg-4 mt-4">
+            <div class="card portfolioContent">
+              <img class="card-img-top" src="images/gif.png" alt="Card image" />
+              <div class="card-body">
+                <h4 class="card-title">Gif Expert App</h4>
+                <p class="card-text">
+                  Encuentra todos los gifs que necesitas para expresar tus
+                  emociones y añadir diversión a tus conversaciones.
+                </p>
+                <div class="text-center">
+                  <a
+                    href="https://mati69lbt.github.io/react-gifExpertApp/"
+                    target="_blank"
+                    class="btn btn-success"
+                    >Link</a
+                  >
+                  <a
+                    href="https://github.com/Mati69lbt/react-gifExpertApp"
+                    target=" _blank"
+                    class="btn btn-success"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Control de Presupuestos -->
+          <div class="col-lg-4 mt-4">
+            <div class="card portfolioContent">
+              <img class="card-img-top" src="images/cp.jpg" alt="Card image" />
+              <div class="card-body">
+                <h4 class="card-title">Control de Presupuestos</h4>
+                <p class="card-text">
+                  Toma el control de tu presupuesto con nuestra página web,
+                  donde podrás realizar un seguimiento detallado de tus gastos
+                </p>
+                <div class="text-center">
+                  <a
+                    href="https://mati69lbt.github.io/Control-Presupuesto/"
+                    target="_blank"
+                    class="btn btn-success"
+                    >Link</a
+                  >
+                  <a
+                    href="https://github.com/Mati69lbt/Control-Presupuesto"
+                    target=" _blank"
+                    class="btn btn-success"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- News Api -->
+          <div class="col-lg-4 mt-4">
+            <div class="card portfolioContent">
+              <img
+                class="card-img-top"
+                src="images/news.jpeg"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h4 class="card-title">News Semi Statics</h4>
+                <p class="card-text">
+                  News SemiStatics: Noticias internacionales de último momento
+                  con apariencia dinámica mediante JSON estático."
+                </p>
+                <div class="text-center">
+                  <a
+                    href="https://newssemistatics.vercel.app/"
+                    target="_blank"
+                    class="btn btn-success"
+                    >Link</a
+                  >
+                  <a
+                    href="https://github.com/Mati69lbt/news-static-dym"
+                    target=" _blank"
+                    class="btn btn-success"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ta -te -ti -->
+          <div class="col-lg-4 mt-4">
+            <div class="card portfolioContent">
+              <img
+                class="card-img-top"
+                src="images/tateti.jpg"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h4 class="card-title">TA TE TI</h4>
+                <p class="card-text">
+                  Sumérgete en la diversión clásica del juego del Tateti o 3 en
+                  raya en nuestra página web. Desafía a tus amigos!!!
+                </p>
+                <div class="text-center">
+                  <a
+                    href="https://tatetilbt.netlify.app/"
+                    target="_blank"
+                    class="btn btn-success"
+                    >Link</a
+                  >
+                  <a
+                    href="https://github.com/Mati69lbt/tateti"
+                    target=" _blank"
+                    class="btn btn-success"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CLima -->
+          <div class="col-lg-4 mt-4">
+            <div class="card portfolioContent">
+              <img
+                class="card-img-top"
+                src="images/clima.jpg"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Clima</h4>
+                <p class="card-text">
+                  Aquí encontrarás informacion sobre el clima, pronósticos
+                  precisos y actualizados para tu ubicación y lugares de
+                  interés.
+                </p>
+                <div class="text-center">
+                  <a
+                    href="https://clima-mati69lbt.vercel.app/"
+                    target="_blank"
+                    class="btn btn-success"
+                    >Link</a
+                  >
+                  <a
+                    href="https://github.com/Mati69lbt/clima"
+                    target=" _blank"
+                    class="btn btn-success"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CRM -->
+          <div class="col-lg-4 mt-4">
+            <div class="card portfolioContent">
+              <img class="card-img-top" src="images/crm.jpg" alt="Card image" />
+              <div class="card-body">
+                <h4 class="card-title">CRM - CLIENTES</h4>
+                <p class="card-text">
+                  Simplifica tu enfoque y alcanza el máximo potencial de tus
+                  clientes con esta solución de relaciones centrada en la
+                  eficiencia
+                </p>
+                <div class="text-center">
+                  <a
+                    href="https://admin-clientes-two.vercel.app/"
+                    target="_blank"
+                    class="btn btn-success"
+                    >Link</a
+                  >
+                  <a
+                    href="https://github.com/Mati69lbt/AdminClientes"
+                    target=" _blank"
+                    class="btn btn-success"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Challenger -->
+          <div class="col-lg-4 mt-4">
+            <div class="card portfolioContent">
+              <img
+                class="card-img-top"
+                src="images/simularc.jpeg"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Challenger</h4>
+                <p class="card-text">
+                  ¡Enfréntate a los desafíos, resuelve los problemas y alcanza
+                  nuevas metas en tu camino hacia el éxito!
+                </p>
+                <div class="text-center">
+                  <a
+                    href="https://mati69lbt.github.io/challengeGreydive/"
+                    target="_blank"
+                    class="btn btn-success"
+                    >Link</a
+                  >
+                  <a
+                    href="https://github.com/Mati69lbt/challengeGreydive"
+                    target=" _blank"
+                    class="btn btn-success"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- OTRO BUSCADOR DE PELIS -->
+          <div class="col-lg-4 mt-4">
+            <div class="card portfolioContent">
+              <img
+                class="card-img-top"
+                src="images/pelis1.jpg"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Buscador de Peliculas</h4>
+                <p class="card-text">
+                  Proyecto de búsqueda de películas a través de la API de IMDb!
+                  Aquí podrás descubrir y explorar un vasto catálogo de
+                  películas,
+                </p>
+                <div class="text-center">
+                  <a
+                    href="https://searchmoviesmati69lbt.netlify.app/"
+                    target="_blank"
+                    class="btn btn-success"
+                    >Link</a
+                  >
+                  <a
+                    href="https://github.com/Mati69lbt/IbdbApi-con-React-Redux"
+                    target="_blank"
+                    class="btn btn-success"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Breaking -->
+          <div class="col-lg-4 mt-4">
+            <div class="card portfolioContent">
+              <img class="card-img-top" src="images/b.jpg" alt="Card image" />
+              <div class="card-body">
+                <h4 class="card-title">Breaking Bad</h4>
+                <p class="card-text">
+                  Proyecto sobre la exitosa serie de television, lamentablemente
+                  la API externa dejo de funcionar.
+                </p>
+                <div class="text-center">
+                  <a
+                    href="https://breakingbad2022.onrender.com/"
+                    target="_blank"
+                    class="btn btn-success"
+                    >Link</a
+                  >
+                  <a
+                    href="https://github.com/Mati69lbt/BB2022"
+                    target="_blank"
+                    class="btn btn-success"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
       </div>
-    </div>
-  </section>
-  <!-- footer section-->
-  <footer id="footer">
-    <div class="container-fluid">
-      <!-- social media icons -->
-      <div class="social-icons mt-4">
-        
-        <!-- Contador de visitas -->
-<a href="https://websmultimedia.com/contador-de-visitas-gratis" title="Contador De Visitas Gratis">
-<img style="border: 0px solid; display: inline;" alt="contador de visitas" src="https://websmultimedia.com/contador-de-visitas.php?id=11402"></a>
+    </section>
 
-<!-- Fin Contador de visitas -->
+    <!-- contact section-->
+    <section id="contact">
+      <div class="container mt-3 contactContent">
+        <h1 class="text-center">Contacto</h1>
 
-        <a href="CVMatiasDelgado.pdf" download="CVMatiasDelgado">
-          <i class="fa-solid fa-download"></i></a>
+        <div class="row mt-4">
+          <div class="col-lg-6">
+            <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+            <div
+              style="
+                text-decoration: none;
+                overflow: hidden;
+                max-width: 100%;
+                width: 500px;
+                height: 500px;
+              "
+            >
+              <div
+                id="google-maps-display"
+                style="height: 100%; width: 100%; max-width: 100%"
+              >
+                <iframe
+                  style="height: 100%; width: 100%; border: 0"
+                  frameborder="0"
+                  src="https://www.google.com/maps/embed/v1/place?q=Paraná,+Entre+Ríos,+Argentina&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                ></iframe>
+              </div>
+              <a
+                class="googlemaps-made"
+                href="https://www.embed-map.com"
+                id="enable-map-data"
+                >https://www.embed-map.com</a
+              >
+              <style>
+                #google-maps-display img {
+                  max-height: none;
+                  max-width: none !important;
+                  background: none !important;
+                }
+              </style>
+            </div>
+          </div>
 
-        <a href="https://www.facebook.com/Mati69lbt/" target="_blank">
-          <i class="fab fa-facebook"></i></a>
+          <div class="col-lg-6">
+            <!-- form fields -->
+            <form action="https://formspree.io/f/mrgdqpvd" method="POST">
+              <input
+                type="text"
+                class="form-control form-control-lg"
+                placeholder="Nombre o Empresa"
+                name="Name"
+                autocomplete="off"
+              />
 
-        <a href="https://www.instagram.com/mati69_lbt/?hl=es/" target="_blank"><i class="fab fa-instagram"></i></a>
-        
-        <a href="https://twitter.com/Mati69_lbt/" target="_blank"><i class="fab fa-twitter"></i></a>
+              <input
+                type="email"
+                class="form-control mt-3"
+                placeholder="Email"
+                name="email"
+                autocomplete="off"
+              />
 
-        <a href="https://www.linkedin.com/in/matiasdelgadodev/" target="_blank"><i class="fab fa-linkedin"></i></a>
-
-        <a href="https://github.com/Mati69lbt/" target="_blank"><i class="fab fa-github"></i></a>
-
+              <input
+                type="text"
+                class="form-control mt-3"
+                placeholder="Asunto"
+                name="subject"
+                autocomplete="off"
+              />
+              <div class="mb-3 mt-3">
+                <textarea
+                  class="form-control"
+                  rows="5"
+                  id="comment"
+                  placeholder="Deje su mensaje aquí, le responderé lo antes posible, muchas gracias."
+                  name="message"
+                  autocomplete="off"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-success mt-3">Enviar</button>
+            </form>
+          </div>
+        </div>
       </div>
-    </div>
-  </footer>
+    </section>
 
-  
-  
-  <!-- load javascript after loading all html content -->  
-  <script src="script/script.js">
-  </script>
+    <!-- footer section-->
+    <footer id="footer">
+      <div class="container-fluid">
+        <!-- social media icons -->
+        <div class="social-icons mt-4">
+          <!-- Contador de visitas -->
+          <a
+            href="https://websmultimedia.com/contador-de-visitas-gratis"
+            title="Contador De Visitas Gratis"
+          >
+            <img
+              style="border: 0px solid; display: inline"
+              alt="contador de visitas"
+              src="https://websmultimedia.com/contador-de-visitas.php?id=11402"
+          /></a>
 
-</body>
+          <!-- Fin Contador de visitas -->
 
+          <a href="CVMatiasDelgado.pdf" download="CVMatiasDelgado">
+            <i class="fa-solid fa-download"></i
+          ></a>
+
+          <a href="https://www.facebook.com/Mati69lbt/" target="_blank">
+            <i class="fab fa-facebook"></i
+          ></a>
+
+          <a href="https://www.instagram.com/mati69_lbt/?hl=es/" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+
+          <a href="https://twitter.com/Mati69_lbt/" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+
+          <a
+            href="https://www.linkedin.com/in/matiasdelgadodev/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+
+          <a href="https://github.com/Mati69lbt/" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+  </body>
+</html>
