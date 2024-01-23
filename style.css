@@ -89,6 +89,10 @@ body {
 }
 
 @media (max-width: 576px) {
+  #iconos {
+    font-size: 1.5rem;
+    text-align-last: justify;
+  }
   .bgimage {
     height: 50vh;
     background: url("images/heroImage.jpg");
